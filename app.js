@@ -14,7 +14,7 @@ dotenv.config({ path: "./config/config.env" });
 db();
 
 // routes
-app.use("/api/projectCleanEarth/pay", payment);
+app.use("/api/pay", payment);
 
 // Body parser
 app.use(express.json());
