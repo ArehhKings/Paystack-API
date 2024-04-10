@@ -36,3 +36,5 @@ const paystack = (request) => {
 
   return { initializePayment, verifyPayment };
 };
+
+module.exports = paystack;
